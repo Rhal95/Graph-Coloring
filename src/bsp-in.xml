@@ -1,0 +1,39 @@
+<template>
+ <raeume>
+  <raum name="v1" typ="v"/>
+  <raum name="s1" typ="s"/>
+  <raum name="s2" typ="s"/>
+  <raum name="s3" typ="s"/>
+  <raum name="l1" typ="l"/>
+  <raum name="l2" typ="l"/>
+ </raeume>
+ <faecher>
+  <semester nr="1">
+   <vorlesungen>
+    <fach name="f1" kuerzel="a" typ="v"/>
+    <fach name="f2" kuerzel="b" typ="v"/>
+    <fach name="f3" kuerzel="a" typ="v"/>
+   </vorlesungen>
+   <praktika>
+    <fach name="f4" kuerzel="a" typ="l" nr="11"/>
+    <fach name="f5" kuerzel="b" typ="l" nr="11"/>
+    <fach name="f6" kuerzel="b" typ="s" nr="12"/>
+    <fach name="f7" kuerzel="c" typ="s" nr="12"/>
+    <fach name="f8" kuerzel="a" typ="l" nr="13"/>
+   </praktika>
+  </semester>
+  <semester nr="2">
+   <vorlesungen>
+    <fach name="f9" kuerzel="a" typ="s"/>
+    <fach name="f10" kuerzel="b" typ="v"/>
+   </vorlesungen>
+   <praktika>
+    <fach name="f11" kuerzel="a" typ="l" nr="21"/>
+    <fach name="f12" kuerzel="b" typ="l" nr="21"/>
+    <fach name="f13" kuerzel="b" typ="s" nr="22"/>
+    <fach name="f14" kuerzel="c" typ="s" nr="22"/>
+    <fach name="f15" kuerzel="a" typ="l" nr="23"/>
+   </praktika>
+  </semester>
+ </faecher>
+</template>
